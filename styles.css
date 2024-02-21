@@ -1,4 +1,9 @@
 /* This is the tag for COMMENTS */
+* {
+  outline: 1px solid red;
+}
+
+
 .cover {
   height: 100%;
   margin: 0;
@@ -10,7 +15,8 @@
 
 .cover {
   max-width: 100%;
-  height: auto;}
+  height: auto;
+}
 
 body {
   background-image: url(Images/grassback.png);
@@ -19,7 +25,7 @@ body {
   background-size: auto;
   background-color: rgb(147, 223, 140);
   font-size: 20px;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 h1 {
@@ -39,12 +45,16 @@ form {
   background-color: rgb(216, 216, 216);
   width: fit-content;
   padding: 15px;
-  }
+}
 
+#redform {
+    height: 100px;
+  padding-bottom: 10px;
+}
 
-footer {font-style: italic;}
-
-
+footer {
+  font-style: italic;
+}
 
 /*Home page*/
 
@@ -61,18 +71,17 @@ footer {font-style: italic;}
   background-color: beige;
 }
 
-.gamehistory th, .gamehistory td {
+.gamehistory th,
+.gamehistory td {
   border: 3px solid black;
   padding: 8px;
   white-space: pre;
-  border-radius: 50px
+  border-radius: 50px;
 }
 
 .gamehistory th {
   border: 3px solid black;
-  
 }
-
 
 /* Meet the pikmin */
 
@@ -89,14 +98,16 @@ footer {font-style: italic;}
   font-size: 20px;
 }
 .pikmin-container {
+  display: flex;
+  align-items: center;
   overflow: hidden;
 }
 .pikmin-container img {
   float: left;
   margin-right: 10px;
 }
-.pikmin-container {
-  display: flex;
-  align-items: center;
-}
 
+.characteristics p {
+  display: flex;
+  flex-direction: row;
+}

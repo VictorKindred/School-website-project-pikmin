@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Meet the Pikmin</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="Images/icon.png" type="image/png">
   </head>
 
   <body>
@@ -25,17 +26,18 @@
       </header>
       <div class="pikmin-container">
         <img
-          src="Images/P4_Red_Pikmin_Render.png"
-          height="200"
-          alt="Red Pikmin with a flower on its head"
-        />
-        <header><h3>Characteristics</h3></header>
+          src="Images/red pikmin.png" height="200" alt="Red Pikmin with a flower on its head"/>
+      
+       <div class="characteristics">
+       <header><h3>Characteristics</h3></header>
         <ul>
           <li>Red coloring</li>
           <li>Pointy nose</li>
           <li>Strongest hit damage</li>
           <li>Immune to fire</li>
         </ul>
+      </div>
+      
         <p>
           Red Pikmins are the very first pikmins that you encounter in every
           installment. They are characterized by their bright red coloring and
@@ -50,7 +52,7 @@
       <header id="yellow-pikmin"><h2>Yellow Pikmin</h2></header>
       <div class="pikmin-container">
         <img
-          src="Images/Yellow_Pikmin_Render.png"
+          src="Images/yellow pikmin.png"
           height="200"
           alt="Yellow pikmin with a flower on its head"
         />
@@ -74,7 +76,7 @@
       <header id="blue-pikmin"><h2>Blue Pikmin</h2></header>
       <div class="pikmin-container">
         <img
-          src="Images/P4_Blue_Pikmin.png"
+          src="Images/blue pikmin.png"
           height="200"
           alt="Blue Pikmin with a flower bud on its head"
         />
@@ -96,15 +98,18 @@
 
     <!--QUIZ
           *Replace the text with pcitures of pikmins above the buttons-->
-
-    <!-- <img class="redsurvey" src="Images/P4_Red_Pikmin_Render.png" alt=""> -->
+          
+          <!-- <img class="redsurvey" src="Images/P4_Red_Pikmin_Render.png" alt=""> -->
 
     <form class="favorite">
       <h2>Which pikmin is your favorite?</h2>
+      <img src="Images/red pikmin.png" id="redform">
       <input type="radio" name="favorite" value="Red Pikmin" /> Red Pikmin
       <br />
+      <img src="Images/yellow pikmin.png" id="redform">
       <input type="radio" name="favorite" value="Yellow Pikmin" /> Yellow Pikmin
       <br />
+      <img src="Images/blue pikmin.png" id="redform">
       <input type="radio" name="favorite" value="Blue Pikmin" /> Blue Pikmin
       <br />
     </form>
